@@ -1,3 +1,3 @@
 # Kakao CLone
 
-HTML/CSS배우기
+HTML/CSS are so much fun~~~
