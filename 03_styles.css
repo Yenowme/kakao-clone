@@ -1,0 +1,116 @@
+body {
+  margin: 0px 15px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+h1 {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.left-margin10 {
+  margin-left: 5px;
+}
+.left-margin20 {
+  margin-left: 20px;
+}
+
+.middle {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+}
+
+.my_card {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: #ededed solid 1px;
+}
+
+.my_card div {
+  width: 60px;
+  height: 60px;
+  background-image: url(https://i.pinimg.com/originals/84/12/71/8412715b792dc8e26f384ce8d26e8304.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 40%;
+}
+.my_card p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.sidebar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friends_card {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friends_card .profile {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://i.pinimg.com/originals/84/12/71/8412715b792dc8e26f384ce8d26e8304.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 40%;
+}
+
+.friends_card .name {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 0px 0px 20px;
+}
+
+.friends_card .number {
+  font-size: 16px;
+}
+main .flex {
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  height: 58px;
+  width: 100%;
+
+  position: fixed;
+  bottom: 0px;
+
+  background-color: #f9f9f9;
+  border-top: solid 1px #ededed;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: -15px;
+}
+.right-margin {
+  margin-right: 10px;
+}
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.gray200 {
+  color: #d5d5d5;
+}
